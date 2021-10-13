@@ -2,11 +2,11 @@
 
 The implementation of Reducing Infromation Bottleneck for Weakly Supervised Semantic Segmentation, Jungbeom Lee, Jooyoung Choi, Jisoo Mok, and Sungroh Yoon, NeurIPS 2021. [[paper](https://arxiv.org/abs/2103.08896)]
 
-# Installation
+## Installation
 
 - We kindly refer to the offical implementation of [IRN](https://github.com/jiwoon-ahn/irn).
 
-# Usage
+## Usage
 
 ### Step 1. Prepare Dataset
 
