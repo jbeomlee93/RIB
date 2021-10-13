@@ -3,8 +3,8 @@
 The implementation of Reducing Infromation Bottleneck for Weakly Supervised Semantic Segmentation, Jungbeom Lee, Jooyoung Choi, Jisoo Mok, and Sungroh Yoon, NeurIPS 2021. [[paper]]
 
 
-<p align="left"><img src="Demo/Figure_toy_pdf_v2.png" alt="outline" width="80%"></p>
-<p align="left"><img src="Demo/cam_samples_total_v3.png" alt="outline" width="80%"></p>
+<p align="left"><img src="Demo/Figure_toy_pdf_v2.png" alt="outline" width="100%"></p>
+<p align="left"><img src="Demo/cam_samples_total_v3.png" alt="outline" width="100%"></p>
 
 ## Abstract
 Weakly supervised semantic segmentation produces pixel-level localization from class labels; however, a classifier trained on such labels is likely to focus on a small discriminative region of the target object. We interpret this phenomenon using the information bottleneck principle: the final layer of a deep neural network, activated by the sigmoid or softmax activation functions, causes an information bottleneck, and as a result, only a subset of the task-relevant information is passed on to the output. We first support this argument through a simulated toy experiment and then propose a method to reduce the information bottleneck by removing the last activation function. In addition, we introduce a new pooling method that further encourages the transmission of information from non-discriminative regions to the classification. Our experimental evaluations demonstrate that this simple modification significantly improves the quality of localization maps on both the PASCAL VOC 2012 and MS COCO 2014 datasets, exhibiting a new state-of-the-art performance for weakly supervised semantic segmentation.
