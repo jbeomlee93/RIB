@@ -1,6 +1,6 @@
 # Reducing Information Bottleneck for Weakly Supervised Semantic Segmentation (NeurIPS 2021)
 
-The implementation of Reducing Infromation Bottleneck for Weakly Supervised Semantic Segmentation, Jungbeom Lee, Jooyoung Choi, Jisoo Mok, and Sungroh Yoon, NeurIPS 2021. [[paper]]
+The implementation of Reducing Infromation Bottleneck for Weakly Supervised Semantic Segmentation, Jungbeom Lee, Jooyoung Choi, Jisoo Mok, and Sungroh Yoon, NeurIPS 2021. [[paper](http://arxiv.org/abs/2110.06530)]
 
 
 <p align="left"><img src="Demo/Figure_toy_pdf_v2.png" alt="outline" width="80%"></p>
